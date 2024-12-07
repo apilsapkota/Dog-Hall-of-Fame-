@@ -1,0 +1,103 @@
+<!-- Apil Sapkota
+     December 07, 2024 implemented the voting system for herodog,workingdog, and companion dog-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Dog: Rex the Brave</title>
+    <link rel="stylesheet" href="styles/dogstyles07.css" />
+    <!-- Updated stylesheet -->
+  </head>
+  <body>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header Section -->
+      <header>
+        <h1>Hero Dog: Rex the Brave</h1>
+        <p>
+          Rex, a German Shepherd, showed extraordinary bravery in the face of
+          danger.
+        </p>
+      </header>
+
+      <!-- Main Section -->
+      <section id="main" class="hero-dog">
+        <h2>About Hero Dogs</h2>
+        <p>
+          Hero dogs are ordinary dogs who perform extraordinary acts of bravery
+          to protect and save lives.
+        </p>
+
+        <article>
+          <h3>Rex the Brave</h3>
+          <p>
+            Rex, a courageous German Shepherd, is a true hero. He protected his
+            16-year-old owner during a home invasion. Despite being shot
+            multiple times, Rex fought to protect his owner, risking his life in
+            the process. Thanks to the quick actions of Officer Jan Magnuson,
+            Rex survived and was rushed to safety, where he recovered from his
+            injuries.
+          </p>
+
+          <!-- Image of Rex the Brave -->
+          <figure>
+            <img
+              src="images/REXDog.png"
+              alt="Rex the Brave, Hero Dog"
+              class="float-right"
+            />
+            <figcaption>
+              Image courtesy of
+              <a
+                href="https://www.king5.com/article/news/local/rex-the-hero-dog-to-be-honored-reunited-with-man-who-saved-his-life/281-526301323"
+                target="_blank"
+                >King 5 News</a
+              >.
+            </figcaption>
+          </figure>
+
+          <h4>Rex's Act of Bravery</h4>
+          <p>
+            Rex's brave actions did not go unnoticed. He was honored for his
+            courage and quick thinking during the home invasion. His bond with
+            his owner and his unwavering loyalty is what makes him a hero.
+          </p>
+        </article>
+
+        <!-- Aside Section -->
+        <aside>
+          <h4>The Importance of Hero Dogs</h4>
+          <p>
+            Hero dogs like Rex show the incredible loyalty and bravery that dogs
+            possess. They risk their lives to save humans and are often
+            recognized as true heroes. Their courage is something that can never
+            be overlooked.
+          </p>
+        </aside>
+      </section>
+      <!-- Voting Section -->
+      <section id="voting">
+        <h3>Vote for HeroDOg Rex!</h3>
+        <div class="vote-buttons">
+          <button id="upvote-btn">👍 Upvote</button>
+          <button id="downvote-btn">👎 Downvote</button>
+        </div>
+        <div id="vote-count">
+          <p>Current Votes: <span id="votes">0</span></p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2024 Dog Hall of Fame. All rights reserved.</p>
+      </footer>
+    </div>
+    <!-- Close page-wrapper -->
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/voting.js"></script>
+  </body>
+</html>

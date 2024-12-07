@@ -1,0 +1,105 @@
+<!-- Apil Sapkota
+     December 07, 2024 implemented the voting system for herodog,workingdog, and companion dog-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Working Dog: Arko aka Breston</title>
+    <link rel="stylesheet" href="styles/dogstyles07.css" />
+    <!-- Updated stylesheet -->
+  </head>
+  <body>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header Section -->
+      <header>
+        <h1>Working Dog: Arko aka Breston</h1>
+        <p>
+          Arko, a Belgian Malinois, has served with distinction as a Military
+          Working Dog.
+        </p>
+      </header>
+
+      <!-- Main Section -->
+      <section id="main" class="working-dog">
+        <h2>About Working Dogs</h2>
+        <p>
+          Working dogs are trained to perform specialized tasks, such as
+          protection, assistance, or tracking. These dogs are highly skilled and
+          serve in various roles that are crucial for human safety and
+          well-being.
+        </p>
+
+        <article>
+          <h3>Arko aka Breston</h3>
+          <p>
+            Arko, a Belgian Malinois, is a dedicated Military Working Dog (MWD).
+            He served in the U.S. military and was known for his incredible
+            ability to detect explosives and track down suspects. His expertise
+            and bravery made him an indispensable asset to his team.
+          </p>
+
+          <!-- Image of Arko the Working Dog -->
+          <figure>
+            <img
+              src="images/policeDog.jpg"
+              alt="Arko the Military Working Dog"
+              class="float-left"
+            />
+            <figcaption>
+              Image courtesy of
+              <a
+                href="https://warriordogfoundation.org/k9-stories/"
+                target="_blank"
+                >Warrior Dog Foundation</a
+              >.
+            </figcaption>
+          </figure>
+
+          <h4>Arko's Military Service</h4>
+          <p>
+            Arko's service includes countless missions where he worked alongside
+            his handler to locate hidden explosives, apprehend suspects, and
+            protect military personnel. His dedication and quick action in
+            dangerous situations have earned him recognition as a hero in the
+            military working dog community.
+          </p>
+        </article>
+
+        <!-- Aside Section -->
+        <aside>
+          <h4>The Role of Military Working Dogs</h4>
+          <p>
+            Military working dogs like Arko play a vital role in ensuring the
+            safety of personnel. They are trained in detection,
+            search-and-rescue, and even combat situations. Their skills are
+            crucial for missions where human soldiers cannot go.
+          </p>
+        </aside>
+      </section>
+      <!-- Voting Section -->
+      <section id="voting">
+        <h3>Vote for Arko!</h3>
+        <div class="vote-buttons">
+          <button id="upvote-btn">👍 Upvote</button>
+          <button id="downvote-btn">👎 Downvote</button>
+        </div>
+        <div id="vote-count">
+          <p>Current Votes: <span id="votes">0</span></p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2024 Dog Hall of Fame. All rights reserved.</p>
+      </footer>
+    </div>
+    <!-- Close page-wrapper -->
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/voting.js"></script>
+  </body>
+</html>
