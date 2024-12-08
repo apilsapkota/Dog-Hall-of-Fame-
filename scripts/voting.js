@@ -1,5 +1,6 @@
 // Apil Sapkota//
 //December 07, 2024 implemented the voting system for herodog,workingdog, and companion dog//
+// my website is live on my name www.apilsapkota.com
 
 // Wait for the document to load before executing
 document.addEventListener("DOMContentLoaded", function () {

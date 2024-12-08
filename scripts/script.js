@@ -1,6 +1,7 @@
 // Apil Sapkota//
 
 // December 07, 2024 implemented the voting system for herodog,workingdog, and companion dog//
+// my website is live on my name www.apilsapkota.com
 
 // JavaScript for Mobile Menu Toggle
 const menuToggle = document.getElementById("menu-toggle");

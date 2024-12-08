@@ -1,5 +1,6 @@
 // Apil Sapkota//
 //December 07, 2024 implemented the voting system for herodog,workingdog, and companion dog//
+// my website is live on my name www.apilsapkota.com
 
 document.addEventListener("DOMContentLoaded", function () {
   // Check if the navbar is already added to prevent duplication
